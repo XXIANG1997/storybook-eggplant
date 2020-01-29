@@ -1,0 +1,148 @@
+<div>
+	<h2>基本使用</h2>
+	<t-tabs :selected.sync="selectOne">
+		<t-tabs-head>
+			<t-tabs-item name="one" icon="ertongpiao">Pictures</t-tabs-item>
+			<t-tabs-item name="two" icon="hongbao">Music</t-tabs-item>
+			<t-tabs-item name="three" icon="gongyi">Videos</t-tabs-item>
+			<t-tabs-item name="four" icon="dianyingpiao">Documents</t-tabs-item>
+		</t-tabs-head>
+		<t-tabs-body>
+			<t-tabs-pane name="one">照片</t-tabs-pane>
+			<t-tabs-pane name="two">音乐</t-tabs-pane>
+			<t-tabs-pane name="three">视频</t-tabs-pane>
+			<t-tabs-pane name="four">文档</t-tabs-pane>
+		</t-tabs-body>
+	</t-tabs>
+	<h2>默认选中</h2>
+	<t-tabs :selected.sync="selectTwo">
+		<t-tabs-head>
+			<t-tabs-item name="one" icon="ertongpiao">Pictures</t-tabs-item>
+			<t-tabs-item name="two" icon="hongbao">Music</t-tabs-item>
+			<t-tabs-item name="three" icon="gongyi">Videos</t-tabs-item>
+			<t-tabs-item name="four" icon="dianyingpiao">Documents</t-tabs-item>
+		</t-tabs-head>
+		<t-tabs-body>
+			<t-tabs-pane name="one">照片</t-tabs-pane>
+			<t-tabs-pane name="two">音乐</t-tabs-pane>
+			<t-tabs-pane name="three">视频</t-tabs-pane>
+			<t-tabs-pane name="four">文档</t-tabs-pane>
+		</t-tabs-body>
+	</t-tabs>
+	<h2>禁用某一项</h2>
+	<t-tabs :selected.sync="selectTwo">
+		<t-tabs-head>
+			<t-tabs-item name="one" disabled icon="ertongpiao">Pictures</t-tabs-item>
+			<t-tabs-item name="two" icon="hongbao">Music</t-tabs-item>
+			<t-tabs-item name="three" icon="gongyi">Videos</t-tabs-item>
+			<t-tabs-item name="four" icon="dianyingpiao">Documents</t-tabs-item>
+		</t-tabs-head>
+		<t-tabs-body>
+			<t-tabs-pane name="one">照片</t-tabs-pane>
+			<t-tabs-pane name="two">音乐</t-tabs-pane>
+			<t-tabs-pane name="three">视频</t-tabs-pane>
+			<t-tabs-pane name="four">文档</t-tabs-pane>
+		</t-tabs-body>
+	</t-tabs>
+	<h2>对齐方式</h2>
+	<t-tabs :selected.sync="selectTwo">
+		<t-tabs-head alignment="left">
+			<t-tabs-item name="one" icon="ertongpiao">Pictures</t-tabs-item>
+			<t-tabs-item name="two" icon="hongbao">Music</t-tabs-item>
+			<t-tabs-item name="three" icon="gongyi">Videos</t-tabs-item>
+			<t-tabs-item name="four" icon="dianyingpiao">Documents</t-tabs-item>
+		</t-tabs-head>
+		<t-tabs-body>
+			<t-tabs-pane name="one">照片</t-tabs-pane>
+			<t-tabs-pane name="two">音乐</t-tabs-pane>
+			<t-tabs-pane name="three">视频</t-tabs-pane>
+			<t-tabs-pane name="four">文档</t-tabs-pane>
+		</t-tabs-body>
+	</t-tabs>
+	<t-tabs :selected.sync="selectTwo">
+		<t-tabs-head alignment="centered">
+			<t-tabs-item name="one" icon="ertongpiao">Pictures</t-tabs-item>
+			<t-tabs-item name="two" icon="hongbao">Music</t-tabs-item>
+			<t-tabs-item name="three" icon="gongyi">Videos</t-tabs-item>
+			<t-tabs-item name="four" icon="dianyingpiao">Documents</t-tabs-item>
+		</t-tabs-head>
+		<t-tabs-body>
+			<t-tabs-pane name="one">照片</t-tabs-pane>
+			<t-tabs-pane name="two">音乐</t-tabs-pane>
+			<t-tabs-pane name="three">视频</t-tabs-pane>
+			<t-tabs-pane name="four">文档</t-tabs-pane>
+		</t-tabs-body>
+	</t-tabs>
+	<t-tabs :selected.sync="selectTwo">
+		<t-tabs-head alignment="right">
+			<t-tabs-item name="one" icon="ertongpiao">Pictures</t-tabs-item>
+			<t-tabs-item name="two" icon="hongbao">Music</t-tabs-item>
+			<t-tabs-item name="three" icon="gongyi">Videos</t-tabs-item>
+			<t-tabs-item name="four" icon="dianyingpiao">Documents</t-tabs-item>
+		</t-tabs-head>
+		<t-tabs-body>
+			<t-tabs-pane name="one">照片</t-tabs-pane>
+			<t-tabs-pane name="two">音乐</t-tabs-pane>
+			<t-tabs-pane name="three">视频</t-tabs-pane>
+			<t-tabs-pane name="four">文档</t-tabs-pane>
+		</t-tabs-body>
+	</t-tabs>
+	<h2>三种大小</h2>
+	<t-tabs :selected.sync="selectTwo">
+		<t-tabs-head size="small">
+			<t-tabs-item name="one">Pictures</t-tabs-item>
+			<t-tabs-item name="two">Music</t-tabs-item>
+			<t-tabs-item name="three">Videos</t-tabs-item>
+			<t-tabs-item name="four">Documents</t-tabs-item>
+		</t-tabs-head>
+		<t-tabs-body>
+			<t-tabs-pane name="one">照片</t-tabs-pane>
+			<t-tabs-pane name="two">音乐</t-tabs-pane>
+			<t-tabs-pane name="three">视频</t-tabs-pane>
+			<t-tabs-pane name="four">文档</t-tabs-pane>
+		</t-tabs-body>
+	</t-tabs>
+	<t-tabs :selected.sync="selectTwo">
+		<t-tabs-head size="medium">
+			<t-tabs-item name="one">Pictures</t-tabs-item>
+			<t-tabs-item name="two">Music</t-tabs-item>
+			<t-tabs-item name="three">Videos</t-tabs-item>
+			<t-tabs-item name="four">Documents</t-tabs-item>
+		</t-tabs-head>
+		<t-tabs-body>
+			<t-tabs-pane name="one">照片</t-tabs-pane>
+			<t-tabs-pane name="two">音乐</t-tabs-pane>
+			<t-tabs-pane name="three">视频</t-tabs-pane>
+			<t-tabs-pane name="four">文档</t-tabs-pane>
+		</t-tabs-body>
+	</t-tabs>
+	<t-tabs :selected.sync="selectTwo">
+		<t-tabs-head size="large">
+			<t-tabs-item name="one">Pictures</t-tabs-item>
+			<t-tabs-item name="two">Music</t-tabs-item>
+			<t-tabs-item name="three">Videos</t-tabs-item>
+			<t-tabs-item name="four">Documents</t-tabs-item>
+		</t-tabs-head>
+		<t-tabs-body>
+			<t-tabs-pane name="one">照片</t-tabs-pane>
+			<t-tabs-pane name="two">音乐</t-tabs-pane>
+			<t-tabs-pane name="three">视频</t-tabs-pane>
+			<t-tabs-pane name="four">文档</t-tabs-pane>
+		</t-tabs-body>
+	</t-tabs>
+	<h2>卡片风格</h2>
+	<t-tabs :selected.sync="selectTwo">
+		<t-tabs-head size="large" type="card">
+			<t-tabs-item name="one">Pictures</t-tabs-item>
+			<t-tabs-item name="two">Music</t-tabs-item>
+			<t-tabs-item name="three">Videos</t-tabs-item>
+			<t-tabs-item name="four">Documents</t-tabs-item>
+		</t-tabs-head>
+		<t-tabs-body>
+			<t-tabs-pane name="one">照片</t-tabs-pane>
+			<t-tabs-pane name="two">音乐</t-tabs-pane>
+			<t-tabs-pane name="three">视频</t-tabs-pane>
+			<t-tabs-pane name="four">文档</t-tabs-pane>
+		</t-tabs-body>
+	</t-tabs>
+</div>

@@ -1,0 +1,38 @@
+<div>
+	<h2>基本使用</h2>
+	<t-collapse>
+		<t-collapse-item title="标题一" name="one" icon="right">内容一</t-collapse-item>
+		<t-collapse-item title="标题二" name="two" icon="right">内容二</t-collapse-item>
+		<t-collapse-item title="标题三" name="three" icon="right">内容三</t-collapse-item>
+	</t-collapse>
+	<h2>默认打开</h2>
+	<t-collapse :selected.sync="selected">
+		<t-collapse-item title="标题一" name="one" icon="right">内容一</t-collapse-item>
+		<t-collapse-item title="标题二" name="two" icon="right">内容二</t-collapse-item>
+		<t-collapse-item title="标题三" name="three" icon="right">内容三</t-collapse-item>
+	</t-collapse>
+	<h2>手风琴（只能打开一项）</h2>
+	<t-collapse single>
+		<t-collapse-item title="标题一" name="one" icon="right">内容一</t-collapse-item>
+		<t-collapse-item title="标题二" name="two" icon="right">内容二</t-collapse-item>
+		<t-collapse-item title="标题三" name="three" icon="right">内容三</t-collapse-item>
+	</t-collapse>
+	<h2>三种大小</h2>
+	<t-collapse single size="small">
+		<t-collapse-item title="标题一" name="one" icon="right">内容一</t-collapse-item>
+		<t-collapse-item title="标题二" name="two" icon="right">内容二</t-collapse-item>
+		<t-collapse-item title="标题三" name="three" icon="right">内容三</t-collapse-item>
+	</t-collapse>
+	<br/>
+	<t-collapse single size="medium">
+		<t-collapse-item title="标题一" name="one" icon="right">内容一</t-collapse-item>
+		<t-collapse-item title="标题二" name="two" icon="right">内容二</t-collapse-item>
+		<t-collapse-item title="标题三" name="three" icon="right">内容三</t-collapse-item>
+	</t-collapse>
+	<br/>
+	<t-collapse single size="large">
+		<t-collapse-item title="标题一" name="one" icon="right">内容一</t-collapse-item>
+		<t-collapse-item title="标题二" name="two" icon="right">内容二</t-collapse-item>
+		<t-collapse-item title="标题三" name="three" icon="right">内容三</t-collapse-item>
+	</t-collapse>
+</div>

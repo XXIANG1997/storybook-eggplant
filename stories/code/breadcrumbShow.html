@@ -1,0 +1,48 @@
+<div>
+	<h2>基本使用</h2>
+	<t-breadcrumb>
+		<t-breadcrumb-item>Home</t-breadcrumb-item>
+		<t-breadcrumb-item>Component</t-breadcrumb-item>
+		<t-breadcrumb-item>breadcrumb</t-breadcrumb-item>
+	</t-breadcrumb>
+	<h2>指定分隔符</h2>
+	<t-breadcrumb separator=">">
+		<t-breadcrumb-item>Home</t-breadcrumb-item>
+		<t-breadcrumb-item>Component</t-breadcrumb-item>
+		<t-breadcrumb-item>breadcrumb</t-breadcrumb-item>
+	</t-breadcrumb>
+	<h2>默认激活</h2>
+	<t-breadcrumb separator=">">
+		<t-breadcrumb-item icon="hongbao">Home</t-breadcrumb-item>
+		<t-breadcrumb-item icon="gongyi">Component</t-breadcrumb-item>
+		<t-breadcrumb-item icon="faxian" active>breadcrumb</t-breadcrumb-item>
+	</t-breadcrumb>
+	<h2>指定 icon</h2>
+	<t-breadcrumb separator=">" size="medium">
+		<t-breadcrumb-item icon="hongbao">Home</t-breadcrumb-item>
+		<t-breadcrumb-item icon="gongyi">Component</t-breadcrumb-item>
+		<t-breadcrumb-item icon="faxian" actite>breadcrumb</t-breadcrumb-item>
+	</t-breadcrumb>
+	<h2>支持路由的 to 属性</h2>
+	<t-breadcrumb separator=">">
+		<t-breadcrumb-item icon="hongbao" to="/">Home</t-breadcrumb-item>
+		<t-breadcrumb-item icon="gongyi" to="/test">Component</t-breadcrumb-item>
+		<t-breadcrumb-item icon="faxian">breadcrumb</t-breadcrumb-item>
+	</t-breadcrumb>
+	<h2>三种大小</h2>
+	<t-breadcrumb separator=">" size="small">
+		<t-breadcrumb-item icon="hongbao" to="/">Home</t-breadcrumb-item>
+		<t-breadcrumb-item icon="gongyi" to="/test">Component</t-breadcrumb-item>
+		<t-breadcrumb-item icon="faxian" active>breadcrumb</t-breadcrumb-item>
+	</t-breadcrumb>
+	<t-breadcrumb separator=">" size="medium">
+		<t-breadcrumb-item icon="hongbao" to="/">Home</t-breadcrumb-item>
+		<t-breadcrumb-item icon="gongyi" to="/test">Component</t-breadcrumb-item>
+		<t-breadcrumb-item icon="faxian" active>breadcrumb</t-breadcrumb-item>
+	</t-breadcrumb>
+	<t-breadcrumb separator=">" size="large">
+		<t-breadcrumb-item icon="hongbao">Home</t-breadcrumb-item>
+		<t-breadcrumb-item icon="gongyi">Component</t-breadcrumb-item>
+		<t-breadcrumb-item icon="faxian" active>breadcrumb</t-breadcrumb-item>
+	</t-breadcrumb>
+</div>
