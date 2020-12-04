@@ -13,7 +13,7 @@
     "core-js": "^3.4.4",
     "eggplant-ui": "^0.0.3",
     "github-markdown-css": "^3.0.1",
-    "highlight.js": "^9.18.0",
+    "highlight.js": "^10.4.1",
     "markdown-it": "^10.0.0",
     "vue": "^2.6.10"
   },
